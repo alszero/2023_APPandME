@@ -34,3 +34,12 @@ img{
   width: 44px;
   height: 44px;
 }
+.background{
+  margin-top: 30px;
+}
+.bg{
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
