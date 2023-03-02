@@ -34,12 +34,30 @@ img{
   width: 44px;
   height: 44px;
 }
-.background{
+.main{
   margin-top: 30px;
+  position: relative;
+  float: left;
 }
-.bg{
-  text-align: center;
-  height: 100vh;
+.main img{
   width: 100%;
-  background-size: cover;
+  height: auto;
+}
+center{
+  text-align: center;
+}
+.title{
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 25%;
+  left: 50%;
+  margin-left: -25%;
+}
+.title .apply{
+  width: 26%;
+  height:50px;
+  border: solid 3px black;
+  border-radius: 100px;
+  margin-top: 4.5%;
 }
