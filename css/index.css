@@ -1,6 +1,9 @@
+::-webkit-scrollbar {
+  display: none;
+}
 body{
   margin: 0;
-  overflow-y: hidden;
+
 }
 .logo-a{
   text-decoration: none;
@@ -54,11 +57,4 @@ center{
   top: 25%;
   left: 50%;
   margin-left: -25%;
-}
-.title .apply{
-  width: 26%;
-  height:50px;
-  border: solid 3px black;
-  border-radius: 100px;
-  margin-top: 4.5%;
 }
