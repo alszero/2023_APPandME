@@ -49,6 +49,10 @@
     line-height: 22mm;
     margin-bottom: 2%;
 }
+.introduction {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
 #title_hr {
     width: 107%;
     height: 3px;
