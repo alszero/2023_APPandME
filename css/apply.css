@@ -57,3 +57,16 @@
     margin-bottom: 5%;
     background-color: #FF6686;
 }
+.box {
+  background-color: #ffffff;
+  width: 94%;
+  height: 600px;
+  text-align: center;
+  box-align: center;
+  border-radius: 15px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 8%;
+  padding-right: 5%;
+  box-shadow: 6px 3px 50px 15px #dadada;
+}
