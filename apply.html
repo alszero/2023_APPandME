@@ -64,9 +64,9 @@
                                 </tr>
                                 <tr class="content">
                                     <td>지원동기</td>
-                                    <td>
-                                        <textarea name="content" id="text" rows="6">
-                                        </textarea>
+                                    <td colspan="2">
+                                        <textarea name="content" id="text" onkeyup="len_chk()" rows="6" placeholder="내용을 입력해주세요(200자 이내)"></textarea>
+                                        <div id="text_cnt">(0/200)</div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -76,5 +76,33 @@
             </div>
         </center>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        // 글자수 제한 체크
+        function len_chk() {
+            var frm = document.apply.reason;
+            var frm2 = document.apply.todo;
+            if (frm.value.length > 400) {
+                alert("글자수는 200자로 제한됩니다.");
+                frm.value = frm.value.substring(0, 400);
+                frm.focus();
+            } else if (frm2.value.length > 400) {
+                alert("글자수는 200자로 제한됩니다.");
+                frm2.value = frm2.value.substring(0, 400);
+                frm2.focus();
+            }
+        }
+        // 실시간 글자수 체크
+        $(document).ready(function() {
+            $('#text').on('keyup', function() {
+                $('#text_cnt').html("("+$(this).val().length+" / 200)");
+        
+                if($(this).val().length > 200) {
+                    $(this).val($(this).val().substring(0, 200));
+                    $('#text_cnt').html("(200 / 200)");
+                }
+            });
+        });
+    </script>
 </body>
 </html>

@@ -145,15 +145,17 @@ textarea{
   padding-top: 15px;
   color:#494949;
   font-size: 13pt;
-  font-weight: 500;
+  font-weight: 700;
   border-radius : 10px;
   border : 1.5px solid #929191;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 textarea:hover{
   font-size: 13pt;
-  font-weight: 500;
+  font-weight: 700;
   border-radius : 10px;
   border : 1.5px solid #FF6E8C;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 input[type=text]
 {
