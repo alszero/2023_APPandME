@@ -31,64 +31,94 @@
   .menus li{
     padding: 0px 10px;
   }
+
   #ins{
     padding-right: 50px;
   }
+
   .img{
     width: 44px;
     height: 44px;
   }
-.main {
-    width: 100vh;
-    position: absolute;
-    left: 12%;
-    top: -7%;
-}
-.main .navtitle{
-    position: absolute;
-    width: 170px;
-    height: 49px;
-    left: 228px;
-    top: 348px;
 
+  .margin {
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 22mm;
+    margin-bottom: 2%;
+  }
+  
+  #title_hr {
+    width: 107%;
+    height: 3px;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-bottom: 5%;
+    background-color: #FF6686;
+  } 
+
+  .margin .wrap {
+    width: 120%;
+
+  }
+
+  .margin .wrap article {
+    float: left;
+    margin-right: 8vw;
+    margin-bottom: 5%;
+  }
+
+  .margin .wrap article .pic {
+    position: relative;
+    width: 16vw;
+    height: 16vh;
+
+    margin-bottom: 15px;
+
+    background: #333;
+    
+    overflow: hidden;
+  }
+
+  .margin .wrap article hr {
+    width: 49px;
+    height: 0px;
+    left: 1060px;
+    top: 757px;
+
+    border: 2px solid #FF6686;
+  }
+  .margin .wrap article .pic img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+  .margin .wrap article .subtitle {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 42px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #0F0F0F;
+  }
+
+  .margin .wrap article p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 
     color: #000000;
-}
 
-.main hr {
-    position: absolute;
-    width: 991px;
-    height: 0px;
-    left: 225px;
-    top: 415px;
-    
-    border: 3px solid #FF6686;    
-}
-
-.main .wrap {
-    position: absolute;
-    width: 100%;
-    top: 552px;
-    left: 222px;
-}
-
-.main .wrap article{
-    width: 280px;
-	float: left;
-	margin-right: 67px;
-    margin-bottom: 67px;
-}
-
-.main .wrap article .pic {
-    width: 297px;
-	height: 201px;
-	background: #333;
-	margin-bottom: 15px;
-	position: relative;
-	overflow: hidden;
-}
+  }
