@@ -38,7 +38,41 @@
     <div class="margin">
         <center>
             <div class="box">
-                
+                    <form method="post" action="apply.php">
+                        <table width="95%" class="list-table">
+                            <tbody>
+                                <tr class="content">
+                                    <td>학번</td>
+                                    <td><input type="text" id="hakbun" name="hakbun" placeholder="1401"></td>
+                                </tr>
+                                <tr class="content">
+                                    <td>이름</td>
+                                    <td><input type="text" id="name" name="name" placeholder="김미림"></td>
+                                </tr>
+                                <tr class="content">
+                                    <td>전화번호</td>
+                                    <td><input type="text" id="tel" name="tel" placeholder="01012345678"></td>
+                                </tr>
+                                <tr class="content">
+                                    <td>나를 5글자로 표현한다면?</td>
+                                    <td><input type="text" id="fiveme" name="fiveme" maxlength="4"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <hr>
+                                    </td>
+                                </tr>
+                                <tr class="content">
+                                    <td>지원동기</td>
+                                    <td>
+                                        <textarea name="content" id="text" rows="6">
+                                        </textarea>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <input type="submit" class="apply" value="지원하기" onclick="" style="cursor: pointer;">
+                    </form>
             </div>
         </center>
     </div>
