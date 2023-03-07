@@ -74,18 +74,31 @@
   padding-left: 18px;
 }
 main {
-  margin: 90px 32px 44px;
+  margin: 100px 32px 44px;
   display: flex; /* card 3개 수평정렬 */
   justify-content: center;
   column-gap: 30px; /* 열과 열사이 간격 */
   row-gap: 40px; /* 행과 행사이 간격 */
   flex-wrap: wrap; /* 너비가 좁아지면, 내리자*/
 }
-.card {
+.card-1 {
   background-color: #f3f3f3;
   border-radius: 1rem;
-  width: 400px;
-  height: 600px;
+  width: 385px;
+  height: 500px;
+  margin-left: 88px;
+}
+.card-2 {
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+  width: 385px;
+  height: 500px;
+}
+.card-3 {
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+  width: 385px;
+  height: 500px;
 }
 .now, 
 .card:hover {
