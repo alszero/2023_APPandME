@@ -61,3 +61,55 @@
     margin-bottom: 5%;
     background-color: #FF6686;
 }
+.member {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.2em;
+  font-weight: 700;
+  float: left;
+}
+#tab {
+  padding-left: 18px;
+}
+main {
+  margin: 90px 32px 44px;
+  display: flex; /* card 3개 수평정렬 */
+  justify-content: center;
+  column-gap: 30px; /* 열과 열사이 간격 */
+  row-gap: 40px; /* 행과 행사이 간격 */
+  flex-wrap: wrap; /* 너비가 좁아지면, 내리자*/
+}
+.card {
+  background-color: #f3f3f3;
+  border-radius: 1rem;
+  width: 400px;
+  height: 600px;
+}
+.now, 
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* a(알파) : 불투명도*/
+  transition: .4s;
+}
+.card-image {
+  /* 점 한 개 자기 자신, 점 두 개 부모*/
+  background-size: cover; /* 배경을 꽉 차게 만들어줌 */
+  height: 0;
+  padding-bottom: 66.66666667%; /* 사진의 비율을 240x160에 맞추자 */
+  border-radius: 1rem 1rem 0 0; /* 시계방향 */
+}
+.card-description{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 1rem;
+}
+.card-title {
+  display: flex; /* 날짜 | 식 가운데 정렬 */
+  justify-content: center;
+  column-gap: 1rem;
+}
+.card-menu {
+  text-align: center; /* 메뉴 가운데 정렬 */
+}
