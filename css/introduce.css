@@ -1,10 +1,6 @@
 ::-webkit-scrollbar {
     display: none;
   }
-  body{
-    margin: 0;
-  
-  }
   .logo-a{
     text-decoration: none;
     font-size: 50px;
@@ -38,7 +34,7 @@
     width: 44px;
     height: 44px;
   }
-  .margin {
+  .titles {
     margin-top: 3%;
     margin-left: 20%;
     margin-right: 20%;
@@ -61,7 +57,7 @@
     margin-bottom: 5%;
     background-color: #FF6686;
 }
-.member {
+/* .member {
   list-style: none;
   display: flex;
   margin: 0;
@@ -69,17 +65,14 @@
   font-size: 1.2em;
   font-weight: 700;
   float: left;
-}
-#tab {
-  padding-left: 18px;
-}
-main {
+} */
+/* main {
   margin: 100px 32px 44px;
-  display: flex; /* card 3개 수평정렬 */
+  display: flex; 
   justify-content: center;
-  column-gap: 30px; /* 열과 열사이 간격 */
-  row-gap: 40px; /* 행과 행사이 간격 */
-  flex-wrap: wrap; /* 너비가 좁아지면, 내리자*/
+  column-gap: 30px; 
+  row-gap: 40px; 
+  flex-wrap: wrap; 
 }
 .card-1 {
   background-color: #f3f3f3;
@@ -102,15 +95,13 @@ main {
 }
 .now, 
 .card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); /* a(알파) : 불투명도*/
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
   transition: .4s;
 }
 .card-image {
-  /* 점 한 개 자기 자신, 점 두 개 부모*/
-  background-size: cover; /* 배경을 꽉 차게 만들어줌 */
-  height: 0;
-  padding-bottom: 66.66666667%; /* 사진의 비율을 240x160에 맞추자 */
-  border-radius: 1rem 1rem 0 0; /* 시계방향 */
+  background-size: cover; 
+  padding-bottom: 66.66666667%; 
+  border-radius: 1rem 1rem 0 0; 
 }
 .card-description{
   display: flex;
@@ -119,10 +110,25 @@ main {
   padding: 1rem;
 }
 .card-title {
-  display: flex; /* 날짜 | 식 가운데 정렬 */
+  display: flex; 
   justify-content: center;
   column-gap: 1rem;
 }
 .card-menu {
-  text-align: center; /* 메뉴 가운데 정렬 */
+  text-align: center; 
+} */
+.member1 {
+  float: left;
+  width: 32.3%;
+  height: 55%;
+  margin-right: 1.5%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px #d5d8e0;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+}
+div {
+  display: block;
 }
