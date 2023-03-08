@@ -63,66 +63,6 @@
     margin-bottom: 5%;
     background-color: #FF6686;
 }
-/* .member {
-  list-style: none;
-  display: flex;
-  margin: 0;
-  padding-left: 0;
-  font-size: 1.2em;
-  font-weight: 700;
-  float: left;
-} */
-/* main {
-  margin: 100px 32px 44px;
-  display: flex; 
-  justify-content: center;
-  column-gap: 30px; 
-  row-gap: 40px; 
-  flex-wrap: wrap; 
-}
-.card-1 {
-  background-color: #f3f3f3;
-  border-radius: 1rem;
-  width: 385px;
-  height: 500px;
-  margin-left: 88px;
-}
-.card-2 {
-  background-color: #f3f3f3;
-  border-radius: 1rem;
-  width: 385px;
-  height: 500px;
-}
-.card-3 {
-  background-color: #f3f3f3;
-  border-radius: 1rem;
-  width: 385px;
-  height: 500px;
-}
-.now, 
-.card:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25); 
-  transition: .4s;
-}
-.card-image {
-  background-size: cover; 
-  padding-bottom: 66.66666667%; 
-  border-radius: 1rem 1rem 0 0; 
-}
-.card-description{
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-  padding: 1rem;
-}
-.card-title {
-  display: flex; 
-  justify-content: center;
-  column-gap: 1rem;
-}
-.card-menu {
-  text-align: center; 
-} */
 .member1 {
   float: left;
   width: 20%;
@@ -190,6 +130,81 @@
   border-radius: 0px 0px 20px 20px;
 }
 .member3 .name p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.member4 {
+  float: left;
+  width: 20%;
+  height: 55%;
+  margin-left: 21.2%;
+  margin-top: 2%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px #d5d8e0;
+}
+.member4 .img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.member4 .name {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+}
+.member4 .name p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.member5 {
+  float: left;
+  width: 20%;
+  height: 55%;
+  margin-left: 1%;
+  margin-top: 2%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px #d5d8e0;
+}
+.member5 .img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.member5 .name {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+}
+.member5 .name p {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.member6 {
+  float: left;
+  width: 20%;
+  height: 55%;
+  margin-left: 1%;
+  margin-top: 2%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 0px 20px #d5d8e0;
+}
+.member6 .img {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+.member6 .name {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+}
+.member6 .name p {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight: bold;
   color: black;
