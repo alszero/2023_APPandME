@@ -57,3 +57,120 @@
     margin-bottom: 5%;
     background-color: #FF6686;
 }
+.box {
+  background-color: #ffffff;
+  width: 94%;
+  height: 700px;
+  text-align: center;
+  box-align: center;
+  border-radius: 15px;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 8%;
+  padding-right: 5%;
+  box-shadow: 2px 8px 10px 0px rgba(0, 0, 0, 0.15);
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+.apply {
+	width: 26%;
+	height: 60px;
+	font-size: 1.5em;
+	font-weight: 700;
+  color: #230A3F;
+	border: solid 3.5px #230A3F;
+	border-radius: 100px;
+  padding-top: 1%;
+  padding-bottom: 4%;
+  padding-left: 5%;
+  padding-right: 5%;
+	margin-top: 5%;
+  margin-bottom: 10%;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.list-table tbody td {
+  text-align: left;
+  /* border-bottom: 1px solid gray; */
+  height: 40px;
+}
+.content {
+  color: #FF6E8C;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.list-table tbody td {
+  text-align: left;
+  /* border-bottom: 1px solid gray; */
+  height: 40px;
+}
+#hakbun {
+  float:left; width: 85%; height:50px
+}
+#name {
+  float:left; width: 85%; height:50px
+}
+#tel{
+  float:left; width: 85%; height:50px
+}
+#fiveme {
+  float:left; width: 85%; height:50px
+}
+#text{
+    width:92%; float:left; margin-right: 5%;
+}
+input,
+textarea {
+  border-radius: 9px;
+  border: 1px solid gray;
+  padding-left: 15px;
+  font-size: 15px;
+  resize: none;
+}
+textarea{
+  padding-top: 15px;
+  color:#494949;
+  font-size: 13pt;
+  font-weight: 700;
+  border-radius : 10px;
+  border : 1.5px solid #929191;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+textarea:hover{
+  font-size: 13pt;
+  font-weight: 700;
+  border-radius : 10px;
+  border : 1.5px solid #FF6E8C;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+input[type=text]
+{
+  font-size: 13pt;
+  font-weight: 700;
+  border-radius : 10px;
+  border : 1.5px solid #929191;
+}
+input[type=text]:hover
+{
+  font-size: 13pt;
+  font-weight: 700;
+  border-radius : 10px;
+  border : 1.5px solid #FF6E8C;
+}
+input[type=text], textarea:focus{
+  outline: none;
+}
