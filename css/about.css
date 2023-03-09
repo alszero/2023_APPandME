@@ -70,6 +70,8 @@
 }
 
   .box {
+    min-width: 400px;
+
     margin-top: 3%;
     margin-left: 50%;
     margin-right: 5%;
@@ -118,6 +120,8 @@
   }
 
   .box .contents{
+    min-width: 300px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
