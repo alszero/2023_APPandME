@@ -48,14 +48,16 @@
     font-size: 2.5em;
     line-height: 22mm;
     margin-bottom: 2%;
+    margin-left: 3.5%;
 }
   
   #title_hr {
-    width: 107%;
+    width: 96%;
     height: 3px;
     border-bottom: 0px;
     border-top: 0px;
     margin-bottom: 5%;
+    margin-left: 3%;
     background-color: #FF6686;
 }
 
@@ -63,6 +65,7 @@
     position: absolute;
     width: 20vw;
     height: 20vw;
+    margin-left: 3%;
 }
 
   .box {
@@ -79,6 +82,7 @@
     box-shadow: 2px 8px 10px gray;
     
     border-radius: 10px;
+    /*박스 hr 끝에 맞춰 정렬*/
   }
 
   .box .subtitle {
