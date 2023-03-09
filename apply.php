@@ -3,7 +3,7 @@ $uHakbun = $_POST["hakbun"];
 $uName = $_POST["name"];
 $uTel = $_POST["tel"];
 $uFiveme = $_POST["fiveme"];
-$uText = $_POST["content"];
+$uText = $_POST["text"];
 
 $conn = mysqli_connect('localhost', 'appandme2023', 'alflarhkgkrrh1!', 'appandme2023');
 
