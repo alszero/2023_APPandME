@@ -3,7 +3,7 @@ $uHakbun = $_POST["hakbun"];
 $uName = $_POST["name"];
 $uTel = $_POST["tel"];
 $uFiveme = $_POST["fiveme"];
-$uText = $_POST["text"];
+$uText = $_POST["content"];
 
 $conn = mysqli_connect('localhost', 'appandme2023', 'alflarhkgkrrh1!', 'appandme2023');
 
@@ -12,4 +12,3 @@ mysqli_query($conn, $query);
 
 mysqli_close($conn);
 ?>
-<meta http-equiv = "refresh" content="0;url-apply.html">;
