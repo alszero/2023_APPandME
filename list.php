@@ -2,10 +2,10 @@
 $conn = mysqli_connect('localhost', 'appandme2023', 'alflarhkgkrrh1!', 'appandme2023');
 
 $query = "select * from submit";
-$conn = mysqli_query($conn, $query);
-$rows = mysqli_num_rows($conn);
+$q = mysqli_query($conn, $query);
+$rows = mysqli_num_rows($q);
 for($i=0; $i<$rows; $i++){
-    $row = mysqli_fetch_row($conn);
+    $row = mysqli_fetch_row($q);
     echo "<tr><td> 학번 : $row[1]</td></tr></br>
         <tr><td> 이름 : $row[0]</td></tr></br>
         <tr><td> 전화번호 : $row[4]</td></tr></br>
