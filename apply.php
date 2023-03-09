@@ -12,4 +12,4 @@ mysqli_query($conn, $query);
 
 mysqli_close($conn);
 ?>
-<meta http-equiv = "refresh" content="0;url-apply.html">
+<meta http-equiv = "refresh" content="0;url-apply.html">;
