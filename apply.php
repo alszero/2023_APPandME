@@ -11,4 +11,6 @@ $query = "insert into submit(name, student_id, five, motive, phone) values('$uNa
 mysqli_query($conn, $query);
 
 mysqli_close($conn);
+echo("<script>location.replace('/apply.html');</script>");  
 ?>
+<!-- <meta http-equiv = 'refresh' content='0;url=apply.html'>; -->
