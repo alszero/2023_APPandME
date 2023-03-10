@@ -70,7 +70,7 @@
 
   .margin .wrap article {
     float: left;
-    margin-right: 8vw;
+    margin-right: 5vw;
     margin-bottom: 5%;
   }
 
@@ -79,7 +79,7 @@
     width: 16vw;
     height: 16vh;
 
-    min-width: 250px;
+    min-width: 240px;
 
     margin-bottom: 15px;
 
