@@ -63,15 +63,13 @@
 
   .margin img {
     position: absolute;
-    width: 20vw;
-    height: 20vw;
+    width: 19vw;
+    height: 19vw;
     margin-top: 1%;
     margin-left: 3%;
 }
 
   .box {
-    min-width: 360px;
-
     margin-top: 3%;
     margin-left: 50%;
     margin-right: 5%;
@@ -82,11 +80,11 @@
     padding-top: 5%;
     padding-bottom: 3%;
 
-    height: 530px;
+    height: 50vh + 100vw;
 
     box-shadow: 2px 8px 10px #d5d8e0;
     
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   .box .subtitle {
@@ -106,7 +104,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
-    line-height: 130%;
+    line-height: 150%;
 
     color: #000000;
   }
@@ -120,7 +118,6 @@
   }
 
   .box .contents{
-    min-width: 300px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -128,7 +125,7 @@
     font-size: 18px;
     line-height: 139%;
 
-  color: #0F0F0F;
+    color: #0F0F0F;
   }
 
 
