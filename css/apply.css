@@ -7,7 +7,7 @@
   }
   .logo-a{
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: #FF6686;
   }
@@ -16,7 +16,7 @@
     justify-content: space-between;
   }
   header .logo{
-    padding-top: 20px;
+    padding-top: 15px;
     display: flex;
     text-align: center;
     padding: 8px 20px;
@@ -31,9 +31,9 @@
   .menus li{
     padding: 0px 10px;
   }
-  .ins{
+  /* .ins{
     padding-right: 50px;
-  }
+  } */
   img{
     width: 44px;
     height: 44px;
