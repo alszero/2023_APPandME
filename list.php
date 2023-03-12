@@ -10,7 +10,8 @@ for($i=0; $i<$rows; $i++){
         <tr><td> 이름 : $row[0]</td></tr></br>
         <tr><td> 전화번호 : $row[4]</td></tr></br>
         <tr><td> 5글자 : $row[2]</td></tr></br>
-        <tr><td> 지원동기 : $row[3]</td></tr></br><hr>";
+        <tr><td> 지원동기 : $row[3]</td></tr></br><hr>
+        <tr><td> 구분: $row[5]</td></tr>";
 }
 mysqli_close($conn);
 ?>
