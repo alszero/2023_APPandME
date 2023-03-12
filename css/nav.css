@@ -48,7 +48,7 @@ a{
     font-size: 35px;
 
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1024) {
     .navbar{
       flex-direction: column;
       align-items: flex-start;
