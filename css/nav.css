@@ -57,4 +57,6 @@ a{
 .navbar-menu li{
     padding: 8px 70px;
 }
-
+.nav-toggle {
+  display: none; /* 안 보이게 하자 */
+}
