@@ -82,11 +82,11 @@ hr{
     padding: 0;
   }
   .title .first{
-    font-size: 11px;
+    font-size: 14px;
     cursor: pointer;
   }
   .title .sub{
-    font-size: 10.5px;
+    font-size: 12px;
     margin-top: 0.3%;
   }
   .title .date{
