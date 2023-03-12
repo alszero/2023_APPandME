@@ -145,3 +145,96 @@ input[type=text]:hover
 input[type=text], textarea:focus{
   outline: none;
 }
+
+@media screen and (max-width:991px) {
+  .title {
+    font-weight: 700;
+    font-size: 2.0em;
+    line-height: 22mm;
+    margin-bottom: 2%;
+  }
+  .apply{
+    width: 30%;
+    font-size: 1.2em;
+    height: 50px;
+  }
+  .content{
+    font-size: 1.0em;
+  }
+  #hakbun {
+    float:left; width: 70%; height:40px
+  }
+  #name {
+    float:left; width: 70%; height:40px
+  }
+  #tel{
+    float:left; width: 70%; height:40px
+  }
+  #fiveme {
+    float:left; width: 70%; height:40px
+  }
+  #text{
+      width:80%; float:left; margin-right: 5%;
+  }
+  .region, option{
+    float:left; width: 70%; height:50px; font-size: 13px;
+  }
+  textarea{
+    font-size: 10pt;
+  }
+  input[type=text]
+  {
+    font-size: 10pt;
+    font-weight: 700;
+    border-radius : 10px;
+    border : 1.5px solid #929191;
+  }
+  input[type=text]:hover
+  {
+    font-size: 10pt;
+    font-weight: 700;
+    border-radius : 10px;
+    border : 1.5px solid #FF6E8C;
+  }
+  .box{
+    height: 750px;
+  }
+}
+
+@media screen and (max-width:479px) {
+  .title {
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 22mm;
+    margin-bottom: 2%;
+  }
+  .apply{
+    width: 40%;
+    font-size: 1.0em;
+    height: 40px;
+  }
+  .content{
+    font-size: 0.8em;
+  }
+  #hakbun {
+    float:left; width: 55%; height:30px
+  }
+  #name {
+    float:left; width: 55%; height:30px
+  }
+  #tel{
+    float:left; width: 55%; height:30px
+  }
+  #fiveme {
+    float:left; width: 55%; height:30px
+  }
+  #text{
+      width:92%; float:left; margin-right: 5%;
+  }
+  .region, option{
+    float:left; width: 55%; height:50px; font-size: 13px;
+  }
+  .box{
+    height: 700px;
+  }
+}
