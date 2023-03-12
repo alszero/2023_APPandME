@@ -52,7 +52,7 @@ hr{
   text-align: center;
   font-size: 30px; 
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:991px) {
   *{
     margin: 0;
     padding: 0;
