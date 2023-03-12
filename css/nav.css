@@ -1,62 +1,81 @@
-body{
-    margin: 0;
-}
-.logo-a{
-    text-decoration: none;
-    font-size: 35px;
-    font-weight: bold;
-    color: #FF6686;
-  }
-  header .head{
-    display: flex;
-    justify-content: space-between;
-  }
-  header .logo{
-    padding-top: 15px;
-    display: flex;
-    text-align: center;
-    padding: 8px 20px;
-  }
-  header .menus{
-    padding-top: 5px;
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding-left: 0;
-  }
-  .menus li{
-    padding: 0px 10px;
-  }
-  /* .ins{
-    padding-right: 50px;
-  } */
-  img{
-    width: 33px;
-    height: 33px;
-  }
-a{
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: medium;
-    color: #000000;
+* body{
+  margin: 0;
 }
 .navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 8px 12px;
-    box-shadow: 0px 10px 25px 0px #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+}
+img{
+  width: 33px;
+  height: 33px;
+}
+.logo-a{
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+  color: #FF6686;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: medium;
+  color: #000000;
 }
 .navbar-menu{
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding-left: 0;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
 }
 .navbar-menu li{
-    padding: 8px 70px;
+  padding: 8px 50px;
 }
-.nav-toggle {
-  display: none; /* 안 보이게 하자 */
+.navbar-menu li:hover{
+  background-color: #FF6686;
+  border-radius: 4px;
+}
+.menus{
+  list-style: none;
+  display: flex;
+}.menus li{
+  padding: 8px 12px;
+}
+.navbar_toogle{
+  display: none;
+    position: absolute;
+    right: 32px;
+    font-size: 35px;
+
+}
+@media screen and (max-width:768px) {
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 8px 24px;
+    }
+    .navbar-menu{
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .navbar-menu li{
+      width: 100%;
+      text-align: center;
+    }
+    .menus{
+      display: none;
+      justify-content: center;
+      width: 100%;
+      padding-left: 0;
+    }
+    .navbar_toogle{
+      display: block;
+    }
+
+    .navbar-menu.active,
+    .menus.active{
+      display: flex;
+    }
 }
