@@ -27,7 +27,7 @@
 .box {
   background-color: #ffffff;
   width: 94%;
-  height: 700px;
+  height: 800px;
   text-align: center;
   box-align: center;
   border-radius: 15px;
@@ -100,8 +100,12 @@ td {
 #text{
     width:92%; float:left; margin-right: 5%;
 }
+.region, option{
+  float:left; width: 85%; height:50px; font-size: 15px;
+}
+
 input,
-textarea {
+textarea{
   border-radius: 9px;
   border: 1px solid gray;
   padding-left: 15px;
