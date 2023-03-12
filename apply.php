@@ -4,10 +4,11 @@ $uName = $_POST["name"];
 $uTel = $_POST["tel"];
 $uFiveme = $_POST["fiveme"];
 $uText = $_POST["content"];
+$uRegion = $_POST["region"];
 
 $conn = mysqli_connect('localhost', 'appandme2023', 'alflarhkgkrrh1!', 'appandme2023');
 
-$query = "insert into submit(name, student_id, five, motive, phone) values('$uName', '$uHakbun', '$uFiveme', '$uText', '$uTel');";
+$query = "insert into submit(name, student_id, five, motive, phone, region) values('$uName', '$uHakbun', '$uFiveme', '$uText', '$uTel', '$uRegion');";
 mysqli_query($conn, $query);
 
 mysqli_close($conn);
