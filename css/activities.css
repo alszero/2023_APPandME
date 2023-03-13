@@ -86,5 +86,29 @@
     text-align: center;
 
     color: #000000;
+  }
 
+  @media screen and (max-width:991px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 2em;
+      line-height: 22mm;
+      margin-bottom: 2%;
+     }
+  }
+  @media screen and (max-width:479px) {
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 1.5em;
+      line-height: 22mm;
+      margin-bottom: 2%;
+     }
   }
