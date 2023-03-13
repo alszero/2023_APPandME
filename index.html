@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav.css">
     <title>App & Me</title>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,23 +28,26 @@
                 <li><a href="https://asked.kr/AppandMe"><img src="img/ask.png" alt="ask"></a></li>
                 <li><a href="https://instagram.com/app_and_me?igshid=NTdlMDg3MTY="><img class="ins" src="img/instagram.png" alt="instagram"></a></li>
             </ul>
-            <div class="nav-toggle" id="nav-toggle">
+            <a href="#" class="navbar_toogle">
                 <i class='bx bx-menu'></i>
-            </div>
+            </a>
         </nav>
     </header>
     
     <div class="main">
-        <img class="bg" src="img/background.png" alt="">
-    <center>
-        <div class="title">
-            <p style="font-size: 2.5rem; font-weight: bold;">USER에서 MAKER로 거듭나고자 하는</p>
-            <p style="font-size: 2.5rem; font-weight: bold; margin-top: 1%;">당신을 위한 최고의 선택, APP&ME</p>
-            <p style="font-size: 2rem; margin-top: 4%;">앱앤미와 관련되어 궁금한 점이 있다면</p>
-            <p style="font-size: 2rem; margin-top: 0.3%;">에스크와 인스타를 통해 질문해주세요!</p>
-            <div class="apply" style="cursor: pointer; font-size: 30px; font-weight: bold;">지원하기</div>
+        <div class="img">
+            <div class="title">
+                <p class="first" style="font-weight: bold;">USER에서 MAKER로 거듭나고자 하는</p>
+                <p class="first" style="font-weight: bold; margin-top: 1%;">당신을 위한 최고의 선택, APP&ME</p>
+                <hr>
+                <p class="sub">앱앤미와 관련되어 궁금한 점이 있다면</p>
+                <p class="sub">에스크와 인스타를 통해 질문해주세요!</p>
+                <p class="date">03.15-03.19</p>
+                <div onclick="location.href='apply.html'" class="apply" style="cursor: pointer; font-weight: bold;">
+                    지원하기
+                </div>
+            </div>
         </div>
-    </center>
     </div>
 </body>
 </html>

@@ -1,26 +1,101 @@
 ::-webkit-scrollbar {
   display: none;
 }
-body{
+*{
   margin: 0;
-
 }
-.main{
+.img{
   position: relative;
-  float: left;
+  background-image: url(/img/background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.main img{
-  width: 100%;
-  height: auto;
-}
-center{
+.img .title{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);                                                                   
+  font-size:2rem;
+  color: black;
+  z-index: 2;
   text-align: center;
 }
-.title{
-  position: absolute;
-  width: 50%;
-  height: auto;
-  top: 25%;
-  left: 50%;
-  margin-left: -25%;
+.title .first{
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+hr{
+  margin-top: 3%;
+  width: 5%;
+  margin: 20px auto;
+  background-color: gray;
+}
+.title .sub{
+  font-size: 1em; 
+  margin-top: 4%;
+}
+.title .date{
+  font-weight: bold; 
+  font-size: 1.20em; 
+  margin-top: 1.5%;
+}
+.title .apply {
+	width: 26%;
+	height: 45px;
+	border: solid 3px #fc869f;
+  background-color: #fc869f;
+	border-radius: 100px;
+	margin-top: 4.5%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 30px; 
+}
+@media screen and (max-width:991px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .title .first{
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+  .title .sub{
+    font-size: 1.2rem;
+    margin-top: 0.3%;
+  }
+  .title .date{
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .title .apply{
+    font-size: 25px;
+    height: 40px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:479px) {
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .title .first{
+    font-size: 11px;
+    cursor: pointer;
+  }
+  .title .sub{
+    font-size: 11px;
+    margin-top: 0.3%;
+  }
+  .title .date{
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .title .apply{
+    font-size: 15px;
+    height: 20px;
+    width: 50%;
+  }
 }
