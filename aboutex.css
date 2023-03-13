@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.margin{
+    margin-top: 1%;
+    margin-left: 18%;
+    margin-right: 22%;
+}
+.about{
+    font-weight: 700;
+    font-size: 2.5em;
+    line-height: 22mm;
+    margin-bottom: 2%;
+    margin-left: 3.5%;
+}
+.box1 hr{
+    width: 96%;
+    height: 3px;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    background-color: #FF6686;
+}
+.box1 img{
+    
+}
