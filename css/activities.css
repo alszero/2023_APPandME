@@ -99,6 +99,13 @@
       line-height: 22mm;
       margin-bottom: 2%;
      }
+     .margin .wrap article hr {
+      width: 49px;
+      height: 0px;
+      left: 1060px;
+      top: 757px;
+      border: 2px solid #FF6686;
+    }
   }
   @media screen and (max-width:479px) {
     *{
