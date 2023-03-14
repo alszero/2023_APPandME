@@ -1,24 +1,23 @@
 ::-webkit-scrollbar {
     display: none;
   }
-  body{
+  *{
     margin: 0;
-  
-  }
-  .margin {
+    padding: 0;
+}
+.margin{
     margin-top: 3%;
     margin-left: 20%;
     margin-right: 20%;
 }
-  .title {
+.about{
     font-weight: 700;
     font-size: 2.5em;
     line-height: 22mm;
     margin-bottom: 2%;
     margin-left: 3.5%;
 }
-  
-  #title_hr {
+.box1 hr{
     width: 96%;
     height: 3px;
     border-bottom: 0px;
@@ -27,21 +26,18 @@
     margin-left: 3%;
     background-color: #FF6686;
 }
-
-  .box1 img {
+.box1 img{
     position: absolute;
     width: 19vw;
     height: 19vw;
     margin-top: 1%;
     margin-left: 3%;
 }
-
-  .box2 {
+.box2{
     margin-top: 3%;
     margin-left: 50%;
     margin-right: 5%;
     margin-bottom: 3%;
-
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
@@ -52,9 +48,8 @@
     box-shadow: 2px 8px 10px #d5d8e0;
     
     border-radius: 20px;
-  }
-
-  .box2 .subtitle {
+}
+.box2 .title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -63,62 +58,129 @@
 
     color: #8B8B8B;
   }
-
-  .box2 .summary {
+.box2 .subtitle{
     margin-top: 10px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 150%;
     color: #000000;
-  }
-
-  .box2 #contents_hr {
+}
+.box2 hr{
     height: 3px;
-
     margin-top: 10px;
-
     background-color: #FF6686;
-  }
-
-  .box2 .contents{
-
+}
+.box2 .contents{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 139%;
-
     color: #0F0F0F;
-  }
-
-  @media screen and (max-width:991px) {
+}
+@media screen and (max-width: 991px) {
+    .margin{
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
     .box1{
-      width: 100%;
-      left: 10%;
-      margin-top: 10%;
-      float: left;
-      text-align: center;
+        width: 100%;
+        left: 10%;
+        margin-top: 10%;
+        float: left;
+        text-align: center;
     }
-    .title{
-      font-weight: 700;
-      font-size: 5em;
+    .about{
+        font-weight: 700;
+        font-size: 5em;
     }
-    .box #title_hr {
-      width: 20%;
-      height: 2px;
-      border-bottom: 0px;
-      border-top: 0px;
-      margin-top: 15%;
-      margin-bottom: 5%;
-      background-color: #FF6686;
+    .box1 hr {
+        width: 50%;
+        height: 3px;
+        border-bottom: 0px;
+        border-top: 0px;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        background-color: #FF6686;
     }
-    .box1 img {
-      width: 19vw;
-      height: 19vw;
-      margin-top: 1%;
-      margin-left: 3%;
-  }
-  }
+    .box1 img{
+        position: relative;
+        width: 45vw;
+        height: 45vw;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    .box2 {
+        background-color: #ffffff;
+        width: 50%;
+        /* text-align: center; */
+        margin-top: 88%;
+        margin-left: 22%;
+        /* margin-left: 50%; */
+        box-shadow: 10px 5px 50px 30px #ebe9e9;
+    }
+    .box2 .title {
+        font-size: 25px;
+    }
+    .box2 .subtitle{
+        font-size: 30px;
+    }
+    .box2 .contents{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:479px){
+    .margin{
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+    }
+    .box1{
+        width: 100%;
+        left: 10%;
+        margin-top: 10%;
+        float: left;
+        text-align: center;
+    }
+    .about{
+        font-weight: 700;
+        font-size: 3em;
+    }
+    .box1 hr {
+        width: 50%;
+        height: 3px;
+        border-bottom: 0px;
+        border-top: 0px;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        background-color: #FF6686;
+    }
+    .box1 img{
+        position: relative;
+        width: 45vw;
+        height: 45vw;
+        margin-top: 1%;
+        margin-left: 3%;
+    }
+    .box2 {
+        background-color: #ffffff;
+        width: 50%;
+        /* text-align: center; */
+        margin-top: 100%;
+        margin-left: 22%;
+        /* margin-left: 50%; */
+        box-shadow: 10px 5px 50px 30px #ebe9e9;
+    }
+    .box2 .title {
+        font-size: 23px;
+    }
+    .box2 .subtitle{
+        font-size: 14px;
+    }
+    .box2 .contents{
+        font-size: 14px;
+    }
+}
