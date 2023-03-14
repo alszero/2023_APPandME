@@ -191,13 +191,14 @@
 }
 
 #hakgwa {
-  margin-top: 5%;
-  font-size: 0.7em;
+  margin-top: 4%;
+  font-size: 0.8em;
+  font-weight: bold;
   color: #FF6384;
 }
 #name {
-  margin-top: 1%;
-  font-size: 1.4em;
+  padding-bottom: 7%;
+  font-size: 1.6rem;
 }
 .col-md-4 {
   margin-top: 0.7%;
