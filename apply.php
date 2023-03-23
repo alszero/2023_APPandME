@@ -6,7 +6,7 @@ $uFiveme = $_POST["fiveme"];
 $uText = $_POST["content"];
 $uRegion = $_POST["region"];
 
-$conn = mysqli_connect('localhost', 'appandme2023', 'alflarhkgkrrh1!', 'appandme2023');
+$conn = mysqli_connect('localhost', 'appandme2023', '*******', 'appandme2023');
 
 $query = "insert into submit(name, student_id, five, motive, phone, region) values('$uName', '$uHakbun', '$uFiveme', '$uText', '$uTel', '$uRegion');";
 mysqli_query($conn, $query);

@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'appandme2023', 'alflarhkgkrrh1!', 'appandme2023');
+$conn = mysqli_connect('localhost', 'appandme2023', '*******', 'appandme2023');
 
 $query = "select * from submit";
 $q = mysqli_query($conn, $query);
